@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5E6BF3 "
+    tools:context=".TwoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/chaiyo"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/chaiyo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/yoyo"
+        android:textAlignment="center"
+        android:layout_below="@id/chaiyo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="613020148-3 กันฑ์เอนก รัตนศิริพรหม Sec 3"
+        android:textSize="20sp"
+        android:layout_marginTop="25sp"
+        android:textColor="#FFFDFC" />
+    <Button
+        android:id="@+id/btntwo"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/yoyo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back to my fragment"/>
+
+</RelativeLayout>
